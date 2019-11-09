@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner {
+ background-image: url("../img/fotobannerr.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 80vh;
+ text-align: center;
+ padding-top: 25vh;
+}
+
+.banner p, h1 {
+     color:  rgb(125, 100, 138);
+     margin-right: 13%;
+    }
+
+.banner h1 {
+    font-size: 200%;
+}
+
+.banner p {
+    margin-bottom: 30px;
+}
+
+.banner a {
+    color: white;
+    text-decoration: unset;
+    background-color: rgb(125, 100, 138);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-right: 13%
+}
+
+.banner a:hover {
+    background-color: rgb(125, 100, 138);
+    color: white;
+}
+
+/* SOBRE MIM */
+
+.sobre-mim,
+.redes-sociais {
+    max-width: 1204px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.sobre-mim {
+    color: rgb(125, 100, 138);
+}
+
+.minhas-habilidades {
+    display: flex;
+}
+
+.minhas-habilidades_sobre, .minhas-habilidades_itens {
+    max-width: 50%;
+}
+
+.minhas-habilidades_sobre p {
+    text-align: justify;
+    color: black;
+}
+
+.minhas-habilidades_sobre a {
+    color: white;
+    text-decoration: unset;
+    background-color: rgb(125, 100, 138);
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.minhas-habilidades_itens {
+    margin-left: 20%;
+}
+
+.minhas-habilidades ul {
+    color: black;
+}
+
+/*REDES SOCIAIS*/
+.redes-sociais_item {
+    display: flex; 
+    justify-content: space-evenly;
+    }
+
+.redes-sociais_facebook, 
+.redes-sociais_linkedin,
+.redes-sociais_twitter,
+.redes-sociais_github {
+    background-color: rgb(125, 100, 138);
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    border-radius: 20px;
+}
+
+.redes-sociais_item a {
+    text-decoration: unset;
+}
+/* FOOTER */
+
+footer p {
+    text-align: center;
+    background-color: rgb(125, 100, 138);
+    color: white;
+    margin: 0;
+}
